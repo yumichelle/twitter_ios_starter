@@ -21,7 +21,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='twitterp2 walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='twitterp2-walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # Project 3 - *Twitter*
 
