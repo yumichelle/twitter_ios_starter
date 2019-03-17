@@ -76,7 +76,7 @@ class TweetCellTableViewCell: UITableViewCell {
                                               failure: { (Error) in print("Retweeting didn't succeed \(Error)")} )
         
         } else {
-            TwitterAPICaller.client?.retweetTweet(tweetId: tweetId,
+            TwitterAPICaller.client?.unretweetTweet(tweetId: tweetId,
                                                      success: {
                                                         self.setRetweeted(false)
                                                         print("is unretweeted")
