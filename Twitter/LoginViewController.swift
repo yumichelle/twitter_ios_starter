@@ -9,9 +9,16 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+//        onLoginButton.layer.shadowColor = UIColor.black
+//        onLoginButton.layer.shadowRadius = 50
+//        onLoginButton.layer.shadowOpacity = 0.5
+//        onLoginButton.layer.shadowOffset = CGSize(width: 0, height: 0)
+        
+        view.setGradient(colorOne: UIColor(red: 29/255.0, green: 140/255.0, blue: 240/255.0, alpha: 1.0), colorTwo: UIColor(red: 150/255.0, green: 190/255.0, blue: 255/255.0, alpha: 1.0))
       }
     
     override func viewDidAppear(_ animated: Bool) {
